@@ -1,8 +1,8 @@
 package sass
 
 // #cgo LDFLAGS: -lsass
-// #include <stdlib.h>
-// #include <sass_interface.h>
+// #include "stdlib.h"
+// #include "sass_interface.h"
 import "C"
 import (
 	"errors"
